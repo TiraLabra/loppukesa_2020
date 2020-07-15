@@ -1,0 +1,84 @@
+---
+---
+@import "{{ site.theme }}";
+nav {
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    width: 100%;
+}
+
+.upper-nav ol {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.upper-nav-obj {
+    display: inline-block;
+    color: #000;
+    padding: 0 0.5em;
+}
+
+.upper-nav button {
+    box-shadow: none;
+    border: none;
+    font-size: larger;
+    background-color: transparent;
+}
+
+.nav #show {
+    display: none;
+}
+
+.upper-nav-hidden {
+    border-bottom: none;
+    position: fixed;
+    width: 5em;
+    overflow-y: hidden;
+    background-color: transparent;
+    overflow-x: hidden;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.upper-nav-hidden button {
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    margin-top: 0;
+    overflow-x: hidden;
+    background-image: url(../img/drawing.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 4em;
+    width: 4em;
+}
+
+.upper-nav-hidden h2 {
+    display: none;
+}
+
+.upper-nav-hidden ol {
+    display: none;
+}
+
+.upper-nav-hidden #hide {
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .upper-nav-hidden button {
+        text-align: center;
+        background-color: transparent;
+        border: none;
+        font-size: 3em;
+        font-weight: bolder;
+        margin-top: 0;
+        height: 1em;
+        width: 1em;
+    }
+}

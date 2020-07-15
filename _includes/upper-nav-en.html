@@ -1,0 +1,8 @@
+<nav class="upper-nav">
+    <ol>
+        {% for page in site.en %}
+        <li class="upper-nav-obj"><a href="{{ page.url  | relative_url }}">{{ page.title }}</a>
+        </li>
+        {% endfor %}
+    </ol>
+</nav>

@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <script src="../../assets/fuu.js"></script>
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      {%- if page.author -%}
+      • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+    {%- endif -%}</p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {%- if site.disqus.shortname -%}
+  {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var title = "{{ site.title }}";
+      var description = "{{ site.description }}";
+      var refurl = "{{ site.url }}";
+      var eroot = document.getElementsByClassName("page-header")[0];
+      if (document.URL.includes("/en/")) {
+        refurl = refurl + "en/";
+        title = "{{ site.entitle }}";
+        description = "{{ site.endescription }}";
+      }
+      var elem = document.getElementsByClassName("project-tagline")[0];
+      var a = document.createElement("a");
+      a.setAttribute("href", refurl);
+      a.setAttribute("style", "color: white;text-decoration: none");
+      a.appendChild(elem);
+      elem.innerHTML = description;
+      eroot.insertBefore(a, eroot.firstChild);
+  
+      elem = document.getElementsByClassName("project-name")[0];
+      a = document.createElement("a");
+      a.setAttribute("href", refurl);
+      a.setAttribute("style", "color: white;text-decoration: none");
+      a.appendChild(elem);
+      elem.innerHTML = title;
+      eroot.insertBefore(a, eroot.firstChild);
+    });
+    
+  </script>
+</article>
