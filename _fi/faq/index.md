@@ -42,7 +42,7 @@ Nämä toki ovat sallittuja ainakin testeissä ja käyttöliittymäkoodissa.
 
 ## Saako `String` luokan funktioita / metodeita käyttää?
 
-`lenght()` on oikeastaan pakko sallia.
+`length()` on oikeastaan pakko sallia.
 
 Muita sallittuja on ainakin `charAt()`, `toCharArray()`, `getBytes()`, `equals()`.
 
