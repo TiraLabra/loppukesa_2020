@@ -1,7 +1,17 @@
 <nav class="upper-nav">
+    <button id="hide" onclick="hideNav()"> &#x2715;</button>
+    <button id="show" onclick="showNav()"> </button>
     <ol>
-        {% for page in site.en %}
+        <li class="upper-nav-obj"><a href="{{ 'en'  | relative_url }}">Front page</a>
+            {% for page in site.en %}
+
+            {% if page.nav-title %}
+        <li class="upper-nav-obj"><a href="{{ page.url  | relative_url }}">{{ page.nav-title }}</a>
+            {% else %}
+            {% if page.title != "Data Structures Project" %}
         <li class="upper-nav-obj"><a href="{{ page.url  | relative_url }}">{{ page.title }}</a>
+            {% endif %}
+            {% endif %}
         </li>
         {% endfor %}
     </ol>

@@ -116,8 +116,7 @@ if (timing["paja1"]) {
 <ul>
   <li id="demo" />
   <li><b>Mandatory!</b> Contact the course assistant if you can not make the Demo session. The Demo session is mandatory to get a passing grade!</li>
-  <li>Preferrably present with your own laptop. In this case you may want to arrive early to test that the laptop works properly with the projector. If you are not able to present using your own laptop, please make arrangements with a friend or contact a course assistant.</li>
-  <li>All projects will also be loaded onto a presentation machine, which you may use for the demonstration. However the presentation machine don't always work at all and when they work, the projects may not work in the presentation environment.</li>
+  <li>Everyone should present with their own computer. You may want to arrive early to test that the laptop works properly with the projector/screen sharing software. If you are not able to present using your own machine, please make arrangements with a friend or contact a course assistant.</li>
   <li>At most 5 minutes per project.</li>
   <li>Slides are not required for the presentation and generally not recommended unless you have a specific reason to use them.</li>
 </ul>

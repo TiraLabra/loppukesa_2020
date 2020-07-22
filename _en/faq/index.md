@@ -16,7 +16,7 @@ Yes.
 
 You should make sure that there is a clear divide between the UI and the actual project code and leave the UI out of the test coverage reports.
 
-## May I use library "Y" to read / write files?
+## May I use library "Z" to read / write files?
 
 Yes.
 
@@ -42,13 +42,13 @@ Of course these are perfectly fine in tests and user interface code.
 
 ## Is using functions / methods from the `String` class allowed?
 
-The `lenght()` functions essentially has to be allowed.
+The `length()` functions essentially has to be allowed.
 
 Others that are allowed are at least `charAt()`, `toCharArray()`, `getBytes()`, `equals()`.
 
 Generally more complex functions are not allowed as these hide non-trivial functionality. Ask if unsure.
 
-Of course these are fine in the usere interface.
+Of course all string member functions are fine in the usere interface.
 
 ## Is using `System.arraycopy` allowed?
 
@@ -59,6 +59,8 @@ See below.
 in principle, no. However, for example, copying arrays without using `System.arraycopy` may be slow enough to become a bottle neck in the code, witch is not practical. In this case, you should document the performance difference and use built in functions.
 
 This may apply to member of `Arrays` as well.
+
+Sorting using standard library functions is not allowed, except in test and user interface code.
 
 ## May I use the java `Random` class?
 
@@ -122,7 +124,7 @@ In any case you should discuss with a course assistant *before the first deadlin
 
 Not recommended. You can ask a course assistant *before the first deadline*!
 
-## What should be tested?
+## What should be unit tested?
 
 Everything except the user interface, performance tests and possibly file input and output depending on the project.
 

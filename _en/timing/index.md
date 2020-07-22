@@ -86,7 +86,7 @@ No repository acitivy for 3 consecutive weeks is usually interpreted as a studen
 
 <ul>
   <li id="demo" />
-  <li>You can either present using the class computer or by using your own laptop. Typically using your own laptop is recommended.</li>
+  <li>Present using your own computer. If you can't use your own computer, arrange an alternative with a friend or a course assistans.</li>
   <li>A short approximately 5 minute presentation of your project and possibly some questions and answers.</li>
 </ul>
 

@@ -123,8 +123,7 @@ if (timing["paja1"]) {
 <ul>
   <li id="demo" />
   <li><b>PAKOLLINEN!</b> Ota yhteyttä jos et pääse demotilaisuuteen, se on läpipääsyyn pakollinen!</li> 
-  <li>On erittäin suositeltavaa demota omalta kannettavalta. Tässa tapauksessa voi olla hyvä saapua demoon hyvissä ajoin ja varmistaa että projektori toimii koneen kanssa. Jos omaa kannettavaa ei ole kannattaa demoamisesta sopia kaverin tai ohjaajan kanssa erikseen.</li>
-  <li>Projektit ladataan myös etukäteen esityskoneelle. Osaston koneelta esittäminen ei perinteisesti onnistu kauhean hyvin. Esityskoneet eivät läheskään aina toimi ollenkaan, ja kun toimivat niin projektit eivät välttämättä toimi esityskoneen ympäristössä.</li>
+  <li>Lähtökohtaisesti kaikki demoavat omalta koneeltaan. Voi olla hyvä saapua demoon hyvissä ajoin ja varmistaa että projektori/ruudun jako toimii. Jos omaa kannettavaa ei ole kannattaa demoamisesta sopia kaverin tai ohjaajan kanssa erikseen.</li>
   <li>Korkeintaan 5min per projekti.</li>
   <li>Ei tarvitse dioja, mutta halutessaan niitä voi käyttää, tosin ne vie aikaa, joten ei suositeltu, etenkään ellei tuo omaa konetta esitykseen.</li>
 </ul>

@@ -1,6 +1,7 @@
 ---
 layout: info
 title:  "Issueiden luonnin salliminen repooon"
+nav-title: "Issueiden salliminen"
 categories: jekyll update
 tag: info
 permalink: /fi/issuet/

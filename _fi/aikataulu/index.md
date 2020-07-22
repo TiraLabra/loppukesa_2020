@@ -86,7 +86,7 @@ Kolmen peräkkäisen viikkon ajan muuttumaton repositorio tulkitan kurssin keske
 
 <ul>
   <li id="demo" />
-  <li>Mahdollisuus esittää koulun koneelta, mutta aiemmin sen kanssa on ollut ongelmia joten suositeltavaa ottaa oma läppäri.</li>
+  <li>Esitetään omalta koneelta. Jos tämä ei onnistu kannattaa sopia kaverin tai ohaajan kanssa siitä miten demotaan.</li>
   <li>Lyhyt noin 5 minuuttinen esitys ja mahdollisiin kysymyksiin vastailu (riippuen aikataulusta).</li>
 </ul>
 

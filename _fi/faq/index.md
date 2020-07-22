@@ -60,6 +60,8 @@ Lähtökohtaisesti ei. Tosin esimerkiksi taulukon kopiointi käyttämättä `Sys
 
 Sama voi päteä myös joillekin `Arrays` funktioille / metodeille?
 
+Järjestäminen standardikirjaston funktioilla ei ole sallittua, paitsi testi- ja käyttöliittymäkoodissa.
+
 ## Saako käyttää javan `Random` luokkaa?
 
 Ei oikeastaan. 
@@ -123,7 +125,7 @@ Puhu joka tapauksessa ohjaajan kanssa *ennen ekaa palautusta*!
 
 Ei suositella. Voit kysyä ohjaajalta *ennen ekaa palautusta*!
 
-## Mitä pitää testata?
+## Mitä pitää yksikkötestata?
 
 Kaikki paitsi käyttöliittymä, suorituskykytestit ja mahdollisesti tiedostojen luku ja kirjoittaminen riippuen projektista.
 

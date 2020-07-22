@@ -1,6 +1,7 @@
 ---
 layout: info
 title:  "Errors in the material"
+nav-title: "Suggest changes to material"
 categories: jekyll update
 tag: info
 permalink: /en/bug_bounty/
