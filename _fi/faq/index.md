@@ -42,7 +42,7 @@ Nämä toki ovat sallittuja ainakin testeissä ja käyttöliittymäkoodissa.
 
 ## Saako `String` luokan funktioita / metodeita käyttää?
 
-`lenght()` on oikeastaan pakko sallia.
+`length()` on oikeastaan pakko sallia.
 
 Muita sallittuja on ainakin `charAt()`, `toCharArray()`, `getBytes()`, `equals()`.
 
@@ -113,7 +113,7 @@ Koodikatselmoinnista voi kielivalinnan takia jäädä pisteitä saamatta.
 
 Puhu joka tapauksessa ohjaajan kanssa *ennen ekaa palautusta*!
 
-## Voiko kieleksi valita JavasCriptin?
+## Voiko kieleksi valita JavaScriptin?
 
 Jäsä tuntuu jostain syystä soveltuvan yllättävän hyvin tiralabrakieleksi. Kuitenkin jäsän kirjoittamisen, testaamisen ja testikattavuuden seuraamisen olisi syytä olla entuudestaan tuttua.
 
